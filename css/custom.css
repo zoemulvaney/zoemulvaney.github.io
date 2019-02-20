@@ -1,0 +1,259 @@
+/*
+Custom CSS
+*/
+
+font-family: ff-meta-serif-web-pro, serif;
+font-style: normal;
+font-weight: 300;
+
+font-family: ff-meta-serif-web-pro, serif;
+font-style: normal;
+font-weight: 700;
+
+body{
+  padding-top: 65px;
+}
+
+nav{
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+
+
+.navtext{
+    font-family: 'Work Sans', sans-serif; 300;
+    font-size: 18;
+}
+
+navbar-toggler{
+    color:aquamarine;
+}
+
+.zoe{
+        font-family: ff-meta-serif-web-pro, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    padding-top: 280px;
+    padding-bottom: 200px;
+    color: whitesmoke;
+}
+
+.slogan{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.hometitles{
+    color: whitesmoke;
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+
+/*
+.aboutmebodycopy{
+    padding-top: -1000px;
+}
+*/
+
+.sectionpadding{
+    padding-top: 140px
+}
+
+.workthumbnailpadding{
+    padding-bottom: 40px;
+}
+
+
+.textandgif{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.textoverimage {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.bodycopy{
+    font-family: 'Work Sans', sans-serif; 300;
+    font-size: 16px;
+    color: darkgray;
+}
+
+.workheadings{
+    font-family: ff-meta-serif-web-pro, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    padding-top: 280px;
+    padding-bottom: 200px;
+    color: #191919;
+}
+
+/*
+.workheadingoutline{
+    font-size: 150px;
+    color: transparent;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+*/
+
+.worktitles{
+    font-family: ff-meta-serif-web-pro, serif;
+    font-style: normal;
+/*    font-weight: 700;*/
+    font-size: 34px;
+    color: whitesmoke;
+}
+
+.worksubtitles{
+    font-family: ff-meta-serif-web-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.workabout{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: whitesmoke;
+}
+
+.imagepadding{
+    padding-bottom: 50px;
+}
+
+
+.icon{
+    width: 30px;
+    padding-bottom: 15px;
+}
+
+
+.iconrow{
+    padding-bottom: 100px;
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: darkgray;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footerpadding{
+    padding-top: 10px
+}
+
+
+
+/*MEDIA QUERY*/
+
+
+/*MEDIA QUERY*/
+
+
+
+@media only screen and (max-width:576px)
+{   
+
+
+    
+    
+.sectionpadding{
+    padding-top: 20px;
+}
+    
+.mobileprojectpadding{
+    padding-bottom: 30px;   
+}
+    
+.imagepadding{
+    padding-bottom:  30px;
+    }
+    
+.hometitles{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.workthumbnailpadding{
+    padding-bottom: 2px;
+}
+
+.workheadings{
+    font-family: ff-meta-serif-web-pro, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 280px;
+    padding-bottom: 200px;
+    color: #191919;
+} 
+ 
+.textoverimage {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}    
+
+    
+.workabout{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: whitesmoke;
+}
+    
+.icontext{
+    color: transparent;
+}
+   
+.icon{
+    padding-left: 20px;
+    width: 50px;
+
+}
+    
+.iconrow{
+    padding-bottom: 0px;
+}
+    
+.dontshowmobile{
+    display: none;
+    }
+
+    
+    
+    
+}
+
+
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
