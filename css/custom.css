@@ -50,11 +50,16 @@ navbar-toggler{
     padding-bottom: 40px;
 }
 
-/*
-.aboutmebodycopy{
-    padding-top: -1000px;
+
+
+.aboutheadings{
+    font-family: ff-meta-serif-web-pro, serif;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: -2px;
 }
-*/
+
+
 
 .sectionpadding{
     padding-top: 140px
@@ -135,6 +140,21 @@ navbar-toggler{
 }
 
 
+.farmingwithpadding{
+    padding-bottom: 30px;
+}
+
+.fwmockupspadding{
+    padding-top: 200px;
+}
+
+
+.webscrollpadding{
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+
 .icon{
     width: 30px;
     padding-bottom: 15px;
@@ -146,11 +166,14 @@ navbar-toggler{
 }
 
 
+
+
+
 .footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+/*    background-color: black;*/
     color: darkgray;
     text-align: left;
     font-size: 14px;
